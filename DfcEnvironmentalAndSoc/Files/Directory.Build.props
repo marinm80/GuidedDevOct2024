@@ -1,0 +1,14 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectApplicabilityChecklist/DfcProjectApplicabilityChecklist.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectApplicabilityChecklist/DfcProjectApplicabilityChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectApplicabilityChecklistConfig/DfcProjectApplicabilityChecklistConfig.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectApplicabilityChecklistConfig/DfcProjectApplicabilityChecklistConfig.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectCategory/DfcProjectCategory.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectCategory/DfcProjectCategory.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectExclusionList/DfcProjectExclusionList.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectExclusionList/DfcProjectExclusionList.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectExclusionListConfiguration/DfcProjectExclusionListConfiguration.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectExclusionListConfiguration/DfcProjectExclusionListConfiguration.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjects/DfcProjects.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjects/DfcProjects.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectTyp/DfcProjectTyp.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcProjectTyp/DfcProjectTyp.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcRiskScreening/DfcRiskScreening.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcRiskScreening/DfcRiskScreening.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcRiskScreeningConfig/DfcRiskScreeningConfig.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcRiskScreeningConfig/DfcRiskScreeningConfig.cs')" />
+		<Compile Include="$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcRiskScreeningTopic/DfcRiskScreeningTopic.cs" Condition="Exists('$(PkgPath)/DfcEnvironmentalAndSoc/Schemas/DfcRiskScreeningTopic/DfcRiskScreeningTopic.cs')" />
+	</ItemGroup>
+</Project>
