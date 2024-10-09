@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b40f653c-c0f4-42a6-937d-38681219d265",
+    "Name": "UsrProcess_9148434DevClassic1",
+    "ModifiedOnUtc": "\/Date(1728437701000)\/",
+    "Parent": {
+      "UId": "14876b8e-4b32-477c-a5dd-f03a23efbf37",
+      "Name": "UsrProcess_9148434"
+    },
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Supervisor"
+  }
+}
